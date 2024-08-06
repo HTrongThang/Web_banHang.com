@@ -1,0 +1,128 @@
+/* Form container */
+form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+/* Form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Text inputs and textareas */
+input[type="text"],
+textarea,
+select {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Error messages */
+.text-danger {
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+/* File input */
+#uploadFile input[type="file"] {
+    margin-bottom: 10px;
+}
+
+/* Radio buttons */
+.form-check {
+    margin-right: 20px;
+}
+
+/* Submit button */
+#btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Specific styling for "ADD CAT" page */
+.add-cat-page #detail-page .section-detail label {
+    display: block;
+    padding-bottom: 10px;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+}
+
+.add-cat-page #detail-page .section-detail input[type="text"],
+.add-cat-page #detail-page .section-detail textarea,
+.add-cat-page #detail-page .section-detail select {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.add-cat-page #detail-page .section-detail button {
+    display: block;
+    border: none;
+    outline: none;
+    background: #4fa327;
+    color: #fff;
+    padding: 8px 20px;
+}
+
+.ThongBao {
+    margin: 10px 0px;
+    color: red;
+}
+
+.error_text {
+    font-family: auto;
+    color: red;
+    font-weight: 800;
+    display: contents;
+    margin-left: 10px;
+}
+
+.text_danger {
+    color: red;
+    margin-right: 5px;
+}
+
+.add-cat-page #detail-page .section-detail button:hover {
+    background: #3a7d19;
+}
+
+#btn-upload-thumb {
+    font-size: 13px;
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+#uploadFile {
+    margin-bottom: 15px;
+}
+
+#uploadFile img {
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
